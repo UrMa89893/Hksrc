@@ -1,0 +1,10 @@
+# build output
+build/
+# bgfx/bx/bimg build artifacts (clones are re-fetched, see README)
+hksrc/src/Thirdparty/bgfx/.build/
+hksrc/src/Thirdparty/bx/.build/
+hksrc/src/Thirdparty/bimg/.build/
+# vendored repo clones (not submodules; re-clone with: git clone --depth 1)
+hksrc/src/Thirdparty/bgfx/
+hksrc/src/Thirdparty/bx/
+hksrc/src/Thirdparty/bimg/
