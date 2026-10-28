@@ -1,0 +1,38 @@
+{
+  "format": "HSM",
+  "version": 1,
+  "map": {
+    "name": "test_room",
+    "author": ""
+  },
+  "meshes": [
+    {
+      "id": 1,
+      "name": "Floor",
+      "asset": "",
+      "material": "concrete",
+      "faces": [
+        [[-256,-256,0],[256,-256,0],[256,256,0],[-256,256,0]]
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Wall",
+      "asset": "",
+      "material": "concrete",
+      "faces": [
+        [[-256,-256,0],[256,-256,0],[256,-256,128],[-256,-256,128]]
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": 3,
+      "className": "player_start",
+      "position": [0,0,32],
+      "rotation": [0,0,0],
+      "properties": {}
+    }
+  ],
+  "lights": []
+}

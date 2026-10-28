@@ -1,0 +1,512 @@
+{
+  "format": "HSM",
+  "version": 4,
+  "generator": "hk-sledge",
+  "map": {
+    "name": "Main",
+    "author": "",
+    "savedUtc": "2026-10-28T07:51:19.1200580Z"
+  },
+  "grid": {
+    "visible": true,
+    "snap": true,
+    "step": 16.0,
+    "low": -8192.0,
+    "high": 8192.0
+  },
+  "materials": [
+    "textures/notex.png",
+    "textures/shadernotex.png"
+  ],
+  "visgroups": [],
+  "cameras": [],
+  "nodes": [
+    {
+      "type": "brush",
+      "id": 2,
+      "color": "#00BD8E",
+      "sides": [
+        {
+          "id": 7,
+          "vertices": [
+            [-80, 0, 64],
+            [192, 0, -112],
+            [-80, -208, -112]
+          ],
+          "material": "textures/notex.png",
+          "uAxis": [1, 0, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [0, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 8,
+          "vertices": [
+            [16, 96, 64],
+            [-80, 96, 128],
+            [-80, 96, -112],
+            [192, 96, -112]
+          ],
+          "material": "textures/notex.png",
+          "uAxis": [-1, 0, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [0, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 9,
+          "vertices": [
+            [-80, 96, 128],
+            [-80, 0, 64],
+            [-80, -208, -112],
+            [-80, 96, -112]
+          ],
+          "material": "textures/notex.png",
+          "uAxis": [0, -1, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [0, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 10,
+          "vertices": [
+            [16, 96, 64],
+            [192, 96, -112],
+            [192, 0, -112]
+          ],
+          "material": "textures/notex.png",
+          "uAxis": [0, 1, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [0, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 11,
+          "vertices": [
+            [-80, 96, 128],
+            [16, 96, 64],
+            [192, 0, -112],
+            [-80, 0, 64]
+          ],
+          "material": "textures/notex.png",
+          "uAxis": [1, 0, 0],
+          "vAxis": [0, -1, 0],
+          "shift": [0, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 12,
+          "vertices": [
+            [-80, -208, -112],
+            [192, 0, -112],
+            [192, 96, -112],
+            [-80, 96, -112]
+          ],
+          "material": "textures/notex.png",
+          "uAxis": [-1, 0, 0],
+          "vAxis": [0, -1, 0],
+          "shift": [0, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        }
+      ]
+    },
+    {
+      "type": "brush",
+      "id": 3,
+      "color": "#0081E9",
+      "sides": [
+        {
+          "id": 13,
+          "vertices": [
+            [-80, -304, -96],
+            [384, -304, -96],
+            [384, -304, -112],
+            [-80, -304, -112]
+          ],
+          "material": "textures/shadernotex.png",
+          "uAxis": [1, 0, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [0, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 14,
+          "vertices": [
+            [384, 208, -96],
+            [-80, 208, -96],
+            [-80, 208, -112],
+            [384, 208, -112]
+          ],
+          "material": "textures/shadernotex.png",
+          "uAxis": [-1, 0, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [0, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 15,
+          "vertices": [
+            [-80, 208, -96],
+            [-80, -304, -96],
+            [-80, -304, -112],
+            [-80, 208, -112]
+          ],
+          "material": "textures/shadernotex.png",
+          "uAxis": [0, -1, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [0, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 16,
+          "vertices": [
+            [384, -304, -96],
+            [384, 208, -96],
+            [384, 208, -112],
+            [384, -304, -112]
+          ],
+          "material": "textures/shadernotex.png",
+          "uAxis": [0, 1, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [0, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 17,
+          "vertices": [
+            [-80, 208, -96],
+            [384, 208, -96],
+            [384, -304, -96],
+            [-80, -304, -96]
+          ],
+          "material": "textures/shadernotex.png",
+          "uAxis": [1, 0, 0],
+          "vAxis": [0, -1, 0],
+          "shift": [0, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 18,
+          "vertices": [
+            [-80, -304, -112],
+            [384, -304, -112],
+            [384, 208, -112],
+            [-80, 208, -112]
+          ],
+          "material": "textures/shadernotex.png",
+          "uAxis": [-1, 0, 0],
+          "vAxis": [0, -1, 0],
+          "shift": [0, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        }
+      ]
+    },
+    {
+      "type": "brush",
+      "id": 4,
+      "color": "#00BCF9",
+      "sides": [
+        {
+          "id": 19,
+          "vertices": [
+            [-80, -304, 144.000015],
+            [-64, -304, 144.000015],
+            [-64, -304, -112],
+            [-80, -304, -112]
+          ],
+          "material": "textures/notex.png",
+          "uAxis": [1, 0, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [0, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 20,
+          "vertices": [
+            [-64, 96, 144.000015],
+            [-80, 96, 144.000015],
+            [-80, 96, -112],
+            [-64, 96, -112]
+          ],
+          "material": "textures/notex.png",
+          "uAxis": [-1, 0, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [0, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 21,
+          "vertices": [
+            [-80, 96, 144.000015],
+            [-80, -304, 144.000015],
+            [-80, -304, -112],
+            [-80, 96, -112]
+          ],
+          "material": "textures/notex.png",
+          "uAxis": [0, -1, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [0, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 22,
+          "vertices": [
+            [-64, -304, 144.000015],
+            [-64, 96, 144.000015],
+            [-64, 96, -112],
+            [-64, -304, -112]
+          ],
+          "material": "textures/notex.png",
+          "uAxis": [0, 1, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [0, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 23,
+          "vertices": [
+            [-80, 96, 144.000015],
+            [-64, 96, 144.000015],
+            [-64, -304, 144.000015],
+            [-80, -304, 144.000015]
+          ],
+          "material": "textures/notex.png",
+          "uAxis": [1, 0, 0],
+          "vAxis": [0, -1, 0],
+          "shift": [0, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 24,
+          "vertices": [
+            [-80, -304, -112],
+            [-64, -304, -112],
+            [-64, 96, -112],
+            [-80, 96, -112]
+          ],
+          "material": "textures/notex.png",
+          "uAxis": [-1, 0, 0],
+          "vAxis": [0, -1, 0],
+          "shift": [0, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        }
+      ]
+    },
+    {
+      "type": "brush",
+      "id": 5,
+      "color": "#00BCF9",
+      "sides": [
+        {
+          "id": 25,
+          "vertices": [
+            [-80, -3.78295E-05, 144],
+            [-80, -16.0000381, 144],
+            [-80, -16.0000381, -96],
+            [-80, -3.78295E-05, -96]
+          ],
+          "material": "textures/notex.png",
+          "uAxis": [1.74845553E-07, -1, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [15.9999733, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 26,
+          "vertices": [
+            [384, 192.000046, 144],
+            [383.999969, 208.000031, 144],
+            [383.999969, 208.000031, -96],
+            [384, 192.000046, -96]
+          ],
+          "material": "textures/notex.png",
+          "uAxis": [-1.74845553E-07, 1, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [-15.9999733, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 27,
+          "vertices": [
+            [383.999969, 208.000031, 144],
+            [-80, -3.78295E-05, 144],
+            [-80, -3.78295E-05, -96],
+            [383.999969, 208.000031, -96]
+          ],
+          "material": "textures/notex.png",
+          "uAxis": [-1, -1.748449E-07, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [240, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 28,
+          "vertices": [
+            [-80, -16.0000381, 144],
+            [384, 192.000046, 144],
+            [384, 192.000046, -96],
+            [-80, -16.0000381, -96]
+          ],
+          "material": "textures/notex.png",
+          "uAxis": [1, 1.748449E-07, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [-240, 0],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 29,
+          "vertices": [
+            [383.999969, 208.000031, 144],
+            [384, 192.000046, 144],
+            [-80, -16.0000381, 144],
+            [-80, -3.78295E-05, 144]
+          ],
+          "material": "textures/notex.png",
+          "uAxis": [1.74845553E-07, -1, 0],
+          "vAxis": [-1, -1.748449E-07, 0],
+          "shift": [15.9999733, 240],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 30,
+          "vertices": [
+            [-80, -3.78295E-05, -96],
+            [-80, -16.0000381, -96],
+            [384, 192.000046, -96],
+            [383.999969, 208.000031, -96]
+          ],
+          "material": "textures/notex.png",
+          "uAxis": [-1.74845553E-07, 1, 0],
+          "vAxis": [-1, -1.748449E-07, 0],
+          "shift": [-15.9999733, 240],
+          "scale": [1, 1],
+          "rotation": 0.0
+        }
+      ]
+    },
+    {
+      "type": "brush",
+      "id": 6,
+      "color": "#0081E9",
+      "sides": [
+        {
+          "id": 31,
+          "vertices": [
+            [-80, -304, 144],
+            [384, -304, 144],
+            [384, -304, 128],
+            [-80, -304, 128]
+          ],
+          "material": "textures/shadernotex.png",
+          "uAxis": [1, 0, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [-64, 240],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 32,
+          "vertices": [
+            [384, 208, 144],
+            [-80, 208, 144],
+            [-80, 208, 128],
+            [384, 208, 128]
+          ],
+          "material": "textures/shadernotex.png",
+          "uAxis": [-1, 0, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [64, 240],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 33,
+          "vertices": [
+            [-80, 208, 144],
+            [-80, -304, 144],
+            [-80, -304, 128],
+            [-80, 208, 128]
+          ],
+          "material": "textures/shadernotex.png",
+          "uAxis": [0, -1, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [-48, 240],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 34,
+          "vertices": [
+            [384, -304, 144],
+            [384, 208, 144],
+            [384, 208, 128],
+            [384, -304, 128]
+          ],
+          "material": "textures/shadernotex.png",
+          "uAxis": [0, 1, 0],
+          "vAxis": [0, 0, -1],
+          "shift": [48, 240],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 35,
+          "vertices": [
+            [-80, 208, 144],
+            [384, 208, 144],
+            [384, -304, 144],
+            [-80, -304, 144]
+          ],
+          "material": "textures/shadernotex.png",
+          "uAxis": [1, 0, 0],
+          "vAxis": [0, -1, 0],
+          "shift": [-64, -48],
+          "scale": [1, 1],
+          "rotation": 0.0
+        },
+        {
+          "id": 36,
+          "vertices": [
+            [-80, -304, 128],
+            [384, -304, 128],
+            [384, 208, 128],
+            [-80, 208, 128]
+          ],
+          "material": "textures/shadernotex.png",
+          "uAxis": [-1, 0, 0],
+          "vAxis": [0, -1, 0],
+          "shift": [64, -48],
+          "scale": [1, 1],
+          "rotation": 0.0
+        }
+      ]
+    }
+  ],
+  "editor": {
+    "meshMode": "Object",
+    "meshId": 0
+  }
+}
