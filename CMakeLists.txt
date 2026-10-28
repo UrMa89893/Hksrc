@@ -30,7 +30,11 @@ add_executable(hacksaw
 )
 
 # engine sources are C, but bgfx is C++: link with the C++ driver
-set_target_properties(hacksaw PROPERTIES LINKER_LANGUAGE CXX)
+# put the exe in Working/ so it sits next to assets/ and Working/shaders/
+set_target_properties(hacksaw PROPERTIES
+	LINKER_LANGUAGE CXX
+	RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/Working"
+)
 
 target_include_directories(hacksaw PRIVATE
 	hksrc/src

@@ -34,7 +34,7 @@ sapp_desc sokol_main(int argc, char** argv)
 	(void)argc; (void)argv;
 	return (sapp_desc)
 	{
-		.window_title = "",
+		.window_title = "Lord Goober Femboy window 👑",
 		.width		  = 1280,
 		.height       = 720,
 		.init_cb      = sokol_on_init,

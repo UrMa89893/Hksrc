@@ -1,0 +1,1321 @@
+﻿[setup] bgfx already cloned, skipping
+[setup] bx already cloned, skipping
+[setup] bimg already cloned, skipping
+Set MINGW environment variable.
+Building configurations...
+Running action 'gmake'...
+Generating ".build/projects/gmake-mingw-gcc/Makefile"
+Generating ".build/projects/gmake-mingw-gcc/bimg_encode.make"
+Generating ".build/projects/gmake-mingw-gcc/example-glue.make"
+Generating ".build/projects/gmake-mingw-gcc/example-common.make"
+Generating ".build/projects/gmake-mingw-gcc/tint-core.make"
+Generating ".build/projects/gmake-mingw-gcc/tint-lang.make"
+Generating ".build/projects/gmake-mingw-gcc/tint-api.make"
+Generating ".build/projects/gmake-mingw-gcc/spirv-opt.make"
+Generating ".build/projects/gmake-mingw-gcc/spirv-cross.make"
+Generating ".build/projects/gmake-mingw-gcc/glslang.make"
+Generating ".build/projects/gmake-mingw-gcc/shaderc.make"
+Generating ".build/projects/gmake-mingw-gcc/texturec.make"
+Generating ".build/projects/gmake-mingw-gcc/l-smash.make"
+Generating ".build/projects/gmake-mingw-gcc/texturev.make"
+Generating ".build/projects/gmake-mingw-gcc/geometryc.make"
+Generating ".build/projects/gmake-mingw-gcc/geometryv.make"
+Done. Generated 16/20 projects.
+mingw32-make: Entering directory 'C:/Users/QuipG/OneDrive/Desktop/Hacksaw/hksrc/src/Thirdparty/bgfx/.build/projects/gmake-mingw-gcc'
+==== Building bx (release64) ====
+==== Building glslang (release64) ====
+==== Building l-smash (release64) ====
+==== Building spirv-opt (release64) ====
+==== Building spirv-cross (release64) ====
+==== Building tint-api (release64) ====
+==== Building tint-lang (release64) ====
+Creating ../../win64_mingw-gcc/obj/x64/Release/l-smash
+Creating ../../win64_mingw-gcc/obj/x64/Release/glslang/3rdparty/glslang/SPIRV/CInterface
+Creating ../../win64_mingw-gcc/obj/x64/Release/l-smash/3rdparty/l-smash/codecs
+Creating ../../win64_mingw-gcc/obj/x64/Release/glslang/3rdparty/glslang/SPIRV
+Creating ../../win64_mingw-gcc/obj/x64/Release/spirv-cross
+Creating ../../win64_mingw-gcc/obj/x64/Release/glslang
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-api
+Creating ../../win64_mingw-gcc/obj/x64/Release/glslang/3rdparty/glslang/glslang
+==== Building tint-core (release64) ====
+Creating ../../win64_mingw-gcc/obj/x64/Release/spirv-opt
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-api/3rdparty/dawn/src/tint/api
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/spirv
+Creating ../../win64_mingw-gcc/obj/x64/Release/spirv-cross/3rdparty/spirv-cross
+Creating ../../win64_mingw-gcc/obj/x64/Release/l-smash/3rdparty/l-smash/common
+Creating ../../win64_mingw-gcc/obj/x64/Release/spirv-opt/3rdparty/spirv-tools/source
+Creating ../../win64_mingw-gcc/obj/x64/Release/l-smash/3rdparty/l-smash/core
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-api/3rdparty/dawn/src/tint/api/common
+==== Building bgfx (release64) ====
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core
+==== Building bimg (release64) ====
+Creating ../../win64_mingw-gcc/obj/x64/Release/glslang/3rdparty/glslang/glslang/CInterface
+Creating ../../win64_mingw-gcc/obj/x64/Release/spirv-opt/3rdparty/spirv-tools/source/opt
+Creating ../../win64_mingw-gcc/obj/x64/Release/glslang/3rdparty/glslang/glslang/GenericCodeGen
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-api/3rdparty/dawn/src/tint/api/helpers
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/spirv/intrinsic
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/lang/core
+Creating ../../win64_mingw-gcc/obj/x64/Release/spirv-opt/3rdparty/spirv-tools/source/reduce
+Creating ../../win64_mingw-gcc/obj/x64/Release/glslang/3rdparty/glslang/glslang/HLSL
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/spirv/ir
+spirv_cfg.cpp
+Creating ../../win64_mingw-gcc/obj/x64/Release/l-smash/3rdparty/l-smash/importer
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/lang/core/constant
+==== Building bimg_decode (release64) ====
+==== Building bimg_encode (release64) ====
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/lang/core/intrinsic
+Creating ../../win64_mingw-gcc/obj/x64/Release/spirv-opt/3rdparty/spirv-tools/source/util
+Creating ../../win64_mingw-gcc/obj/x64/Release/glslang/3rdparty/glslang/glslang/MachineIndependent
+vertex_pulling_config.cc
+spirv_cpp.cpp
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/spirv/reader
+Creating ../../win64_mingw-gcc/obj/x64/Release/bimg_encode
+Creating ../../win64_mingw-gcc/obj/x64/Release/glslang/3rdparty/glslang/glslang/MachineIndependent/preprocessor
+a52.c
+==== Building example-common (release64) ====
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/lang/core/ir
+generate_bindings.cc
+spirv_cross.cpp
+Creating ../../win64_mingw-gcc/obj/x64/Release/bimg_encode/bimg/3rdparty/edtaa3
+Creating ../../win64_mingw-gcc/obj/x64/Release/spirv-opt/3rdparty/spirv-tools/source/val
+Creating ../../win64_mingw-gcc/obj/x64/Release/example-common
+Creating ../../win64_mingw-gcc/obj/x64/Release/glslang/3rdparty/glslang/glslang/OSDependent/Windows
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/spirv/reader/common
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/lang/core/ir/analysis
+Creating ../../win64_mingw-gcc/obj/x64/Release/example-common/3rdparty/dear-imgui
+Creating ../../win64_mingw-gcc/obj/x64/Release/bimg_encode/bimg/3rdparty/etc1
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/spirv/reader/lower
+Creating ../../win64_mingw-gcc/obj/x64/Release/glslang/3rdparty/glslang/glslang/ResourceLimits
+assembly_grammar.cpp
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/lang/core/ir/transform
+Creating ../../win64_mingw-gcc/obj/x64/Release/example-common/3rdparty/meshoptimizer/src
+Creating ../../win64_mingw-gcc/obj/x64/Release/bimg_encode/bimg/3rdparty/etcpak
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/spirv/reader/parser
+spirv_c_interface.cpp
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/lang/core/ir/type
+Creating ../../win64_mingw-gcc/obj/x64/Release/example-common/examples/common
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/spirv/type
+Creating ../../win64_mingw-gcc/obj/x64/Release/bimg_encode/bimg/3rdparty/iqa/source
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/lang/core/type
+Creating ../../win64_mingw-gcc/obj/x64/Release/example-common/examples/common/debugdraw
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/spirv/validate
+Creating ../../win64_mingw-gcc/obj/x64/Release/bimg_encode/bimg/3rdparty/libsquish
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/utils
+Creating ../../win64_mingw-gcc/obj/x64/Release/example-common/examples/common/entry
+Creating ../../win64_mingw-gcc/obj/x64/Release/bimg_encode/bimg/3rdparty/nvtt
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/spirv/writer
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/utils/bytes
+alac.c
+Creating ../../win64_mingw-gcc/obj/x64/Release/example-common/examples/common/font
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/spirv/writer/analysis
+Creating ../../win64_mingw-gcc/obj/x64/Release/bimg_encode/bimg/3rdparty/nvtt/bc6h
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/utils/containers
+Creating ../../win64_mingw-gcc/obj/x64/Release/example-common/examples/common/imgui
+Creating ../../win64_mingw-gcc/obj/x64/Release/bimg_encode/bimg/3rdparty/nvtt/bc7
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/spirv/writer/common
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/utils/diagnostic
+Creating ../../win64_mingw-gcc/obj/x64/Release/example-common/examples/common/nanovg
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/spirv/writer/printer
+Creating ../../win64_mingw-gcc/obj/x64/Release/bimg_encode/bimg/3rdparty/nvtt/nvmath
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/utils/ice
+Creating ../../win64_mingw-gcc/obj/x64/Release/example-common/examples/common/ps
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/spirv/writer/raise
+description.c
+Creating ../../win64_mingw-gcc/obj/x64/Release/bimg_encode/bimg/3rdparty/pvrtc
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/utils/macros
+imgui.cpp
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/wgsl
+Creating ../../win64_mingw-gcc/obj/x64/Release/bimg_encode/bimg/src
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/utils/math
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/wgsl/ast
+edtaa3func.cpp
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/utils/memory
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/wgsl/inspector
+GlslangToSpv.cpp
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/utils/reflection
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/wgsl/intrinsic
+binary.cpp
+==== Building example-glue (release64) ====
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/utils/rtti
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/wgsl/ir
+Creating ../../win64_mingw-gcc/obj/x64/Release/example-glue
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/utils/strconv
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/wgsl/program
+Creating ../../win64_mingw-gcc/obj/x64/Release/example-glue/examples/common
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/utils/symbol
+example-glue.cpp
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/wgsl/resolver
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/utils/text
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/wgsl/sem
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-core/3rdparty/dawn/src/tint/utils/text_generator
+etc1.cpp
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/wgsl/writer
+binary_op.cc
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/wgsl/writer/ast_printer
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/wgsl/writer/common
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/wgsl/writer/ir_to_program
+Creating ../../win64_mingw-gcc/obj/x64/Release/tint-lang/3rdparty/dawn/src/tint/lang/wgsl/writer/raise
+builtin_fn.cc
+dts.c
+composite.cc
+Dither.cpp
+imgui_demo.cpp
+Archiving example-glue
+InReadableOrder.cpp
+data.cc
+ProcessRGB.cpp
+h264.c
+diagnostic.cpp
+tint.cc
+eval.cc
+imgui_draw.cpp
+hevc.c
+disassemble.cpp
+powershell : ../../../../bimg/3rdparty/etcpak/ProcessRGB.cpp: In function 'uint32_t 
+{anonymous}::compressBlockTH.constprop(uint8_t*, Luma&, uint32_t&, uint32_t&, bool&)':
+At line:1 char:1
++ powershell -ExecutionPolicy Bypass -File Tools/setup-bgfx.ps1 *>&1 |  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (../../../../bim...32_t&, bool&)'::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+../../../../bimg/3rdparty/etcpak/ProcessRGB.cpp:2470:62: warning: 'bestPixIndices' may be used uninitialized 
+[-Wmaybe-uninitialized]
+ 2470 |             bestPixIndices = ( 0x55555555 & bestPixIndices ) | ( 0xaaaaaaaa & ( ~bestPixIndices ) );
+      |                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../bimg/3rdparty/etcpak/ProcessRGB.cpp:2434:14: note: 'bestPixIndices' was declared here
+ 2434 |     uint32_t bestPixIndices;
+      |              ^~~~~~~~~~~~~~
+==== Building geometryc (release64) ====
+Creating ../../win64_mingw-gcc/obj/x64/Release/geometryc
+Creating ../../win64_mingw-gcc/obj/x64/Release/geometryc/3rdparty/meshoptimizer/src
+Creating ../../win64_mingw-gcc/obj/x64/Release/geometryc/src
+Creating ../../win64_mingw-gcc/obj/x64/Release/geometryc/tools/geometryc
+allocator.cpp
+clusterizer.cpp
+Archiving tint-api
+id.c
+binary.cc
+mp4a.c
+indexanalyzer.cpp
+mp4sys.c
+Tables.cpp
+indexcodec.cpp
+convolve.c
+mp4v.c
+decimate.c
+math_utils.c
+nalu.c
+Logger.cpp
+indexgenerator.cpp
+qt_wfex.c
+vc1.c
+meshletcodec.cpp
+spirv_cross_parsed_ir.cpp
+wma.c
+invalid.cc
+ext_inst.cpp
+ms_ssim.c
+alloc.c
+meshletutils.cpp
+builtin_call.cc
+bits.c
+extensions.cpp
+bytes.c
+opacitymap.cpp
+mse.c
+imgui_tables.cpp
+overdrawoptimizer.cpp
+spirv_cross_util.cpp
+list.c
+libspirv.cpp
+multibuf.c
+partition.cpp
+osdep.c
+psnr.c
+name_mapper.cpp
+SpvBuilder.cpp
+quantization.cpp
+copy_logical.cc
+rasterizer.cpp
+utils.c
+manager.cc
+ssim.c
+remesher.cpp
+box.c
+simplifier.cpp
+spirv_glsl.cpp
+opcode.cpp
+common.cc
+SpvPostProcess.cpp
+alpha.cpp
+atomics.cc
+clusterfit.cpp
+operand.cpp
+box_default.c
+box_type.c
+chapter.c
+spatialorder.cpp
+colourblock.cpp
+In file included from C:/msys64/ucrt64/include/c++/16.2.0/bits/hashtable_policy.h:37,
+                 from C:/msys64/ucrt64/include/c++/16.2.0/bits/hashtable.h:37,
+                 from C:/msys64/ucrt64/include/c++/16.2.0/bits/unordered_map.h:33,
+                 from C:/msys64/ucrt64/include/c++/16.2.0/unordered_map:43,
+                 from ../../../3rdparty/glslang/SPIRV/SpvPostProcess.cpp:42:
+In function 'constexpr _OutIter std::__copy_move_a2(_InIter, _Sent, _OutIter) [with bool _IsMove = false; _InIter = 
+long unsigned int*; _Sent = long unsigned int*; _OutIter = long unsigned int*]',
+    inlined from 'constexpr _OI std::__copy_move_a1(_II, _II, _OI) [with bool _IsMove = false; _II = long unsigned 
+int*; _OI = long unsigned int*]' at C:/msys64/ucrt64/include/c++/16.2.0/bits/stl_algobase.h:490:42,
+    inlined from 'constexpr _OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = long unsigned 
+int*; _OI = long unsigned int*]' at C:/msys64/ucrt64/include/c++/16.2.0/bits/stl_algobase.h:498:31,
+    inlined from 'constexpr _OI std::copy(_II, _II, _OI) [with _II = long unsigned int*; _OI = long unsigned int*]' at 
+C:/msys64/ucrt64/include/c++/16.2.0/bits/stl_algobase.h:640:7,
+    inlined from 'constexpr std::vector<bool, _Alloc>::iterator std::vector<bool, 
+_Alloc>::_M_copy_aligned(const_iterator, const_iterator, iterator) [with _Alloc = std::allocator<bool>]' at 
+C:/msys64/ucrt64/include/c++/16.2.0/bits/stl_bvector.h:1547:28,
+    inlined from 'constexpr void std::vector<bool, _Alloc>::_M_insert_aux(iterator, bool) [with _Alloc = 
+std::allocator<bool>]' at C:/msys64/ucrt64/include/c++/16.2.0/bits/vector.tcc:1285:34,
+    inlined from 'constexpr void std::vector<bool, _Alloc>::push_back(bool) [with _Alloc = std::allocator<bool>]' at 
+C:/msys64/ucrt64/include/c++/16.2.0/bits/stl_bvector.h:1252:17,
+    inlined from 'void spv::Instruction::addIdOperand(spv::Id)' at ../../../3rdparty/glslang/SPIRV/spvIR.h:112:28,
+    inlined from 'void spv::Builder::postProcessSamplers()' at 
+../../../3rdparty/glslang/SPIRV/SpvPostProcess.cpp:618:51:
+C:/msys64/ucrt64/include/c++/16.2.0/bits/stl_algobase.h:424:32: warning: 'void* __builtin_memcpy(void*, const void*, 
+long long unsigned int)' forming offset [4, 7] is out of the bounds [0, 4] [-Warray-bounds=]
+  424 |               __builtin_memmove(_GLIBCXX_TO_ADDR(__result),
+      |               ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  425 |                                 _GLIBCXX_TO_ADDR(__first),
+      |                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+  426 |                                 __n * sizeof(*__first));
+      |                                 ~~~~~~~~~~~~~~~~~~~~~~~
+file.c
+stripifier.cpp
+spirv_hlsl.cpp
+aggressive_dead_code_elim_pass.cpp
+colourfit.cpp
+tangentspace.cpp
+fragment.c
+colourset.cpp
+imgui_widgets.cpp
+isom.c
+maths.cpp
+vcacheoptimizer.cpp
+../../../3rdparty/l-smash/core/isom.c: In function 'isom_group_random_access':
+../../../3rdparty/l-smash/core/isom.c:3148:19: warning: variable 'sample_count' set but not used 
+[-Wunused-but-set-variable=]
+ 3148 |     uint32_t      sample_count;
+      |                   ^~~~~~~~~~~~
+builtins.cc
+vertexcodec.cpp
+rangefit.cpp
+singlecolourfit.cpp
+vertexfilter.cpp
+squish.cpp
+meta.c
+print.c
+zoh.cpp
+node.cc
+vfetchoptimizer.cpp
+vertexlayout.cpp
+zoh_utils.cpp
+zohone.cpp
+spirv_msl.cpp
+geometryc.cpp
+zohtwo.cpp
+read.c
+../../../tools/geometryc/geometryc.cpp: In function 'int main(int, const char**)':
+../../../tools/geometryc/geometryc.cpp:1291:18: warning: variable 'ii' set but not used [-Wunused-but-set-variable=]
+ 1291 |         uint32_t ii = 0;
+      |                  ^~
+amd_ext_to_khr.cpp
+avpcl.cpp
+avpcl_mode0.cpp
+summary.c
+SpvTools.cpp
+scalar.cc
+timeline.c
+avpcl_mode1.cpp
+allocator.cpp
+decompose_strided_array.cc
+spirv_parser.cpp
+splat.cc
+write.c
+disassemble.cpp
+clusterizer.cpp
+avpcl_mode2.cpp
+a52_imp.c
+adts_imp.c
+string.cc
+als_imp.c
+indexanalyzer.cpp
+amr_imp.c
+avpcl_mode3.cpp
+indexcodec.cpp
+dts_imp.c
+doc.cpp
+importer.c
+isobm_imp.c
+indexgenerator.cpp
+mp3_imp.c
+value.cc
+nalu_imp.c
+meshletcodec.cpp
+avpcl_mode4.cpp
+meshletutils.cpp
+glslang_c_interface.cpp
+vc1_imp.c
+wave_imp.c
+opacitymap.cpp
+decompose_strided_matrix.cc
+Archiving l-smash
+avpcl_mode5.cpp
+analyze_live_input_pass.cpp
+spirv_reflect.cpp
+enums.cc
+overdrawoptimizer.cpp
+partition.cpp
+Linking geometryc
+avpcl_mode6.cpp
+CodeGen.cpp
+quantization.cpp
+Running post-build commands
+Stripping symbols.
+rasterizer.cpp
+lower.cc
+avpcl_mode7.cpp
+remesher.cpp
+ctor_conv.cc
+basic_block.cpp
+data.cc
+Link.cpp
+simplifier.cpp
+shader_io.cc
+avpcl_utils.cpp
+block_merge_pass.cpp
+table.cc
+hlslAttributes.cpp
+fitting.cpp
+spatialorder.cpp
+block_merge_util.cpp
+stripifier.cpp
+tangentspace.cpp
+access.cc
+nvtt.cpp
+hlslGrammar.cpp
+vcacheoptimizer.cpp
+texture.cc
+vertexcodec.cpp
+BitScale.cpp
+for_loop_analysis.cc
+MortonTable.cpp
+PvrTcDecoder.cpp
+PvrTcEncoder.cpp
+vertexfilter.cpp
+hlslOpMap.cpp
+transpose_row_major.cc
+PvrTcPacket.cpp
+image_cubemap_filter.cpp
+vfetchoptimizer.cpp
+bgfx_utils.cpp
+build_module.cpp
+image_encode.cpp
+vector_element_pointer.cc
+camera.cpp
+integer_range_analysis.cc
+hlslParseHelper.cpp
+canonicalize_ids_pass.cpp
+cube_atlas.cpp
+debugdraw.cpp
+loop_analysis.cc
+ccp_pass.cpp
+cmd.cpp
+subgroup_matrix.cc
+hlslParseables.cpp
+parser.cc
+dialog.cpp
+cfg.cpp
+hlslScanContext.cpp
+binary.cc
+entry.cpp
+cfg_cleanup_pass.cpp
+block.cc
+entry_android.cpp
+entry_glfw.cpp
+hlslTokenStream.cpp
+entry_html5.cpp
+entry_noop.cpp
+reader.cc
+entry_sdl.cpp
+entry_windows.cpp
+block_param.cc
+code_sink.cpp
+explicit_layout_array.cc
+entry_x11.cpp
+break_if.cc
+combine_access_chains.cpp
+Constant.cpp
+image.cc
+input.cpp
+compact_ids_pass.cpp
+builder.cc
+InfoSink.cpp
+font_manager.cpp
+composite.cpp
+Archiving bimg_encode
+builtin_call.cc
+text_buffer_manager.cpp
+literal.cc
+const_folding_rules.cpp
+text_metrics.cpp
+==== Building texturec (release64) ====
+Creating ../../win64_mingw-gcc/obj/x64/Release/texturec
+Creating ../../win64_mingw-gcc/obj/x64/Release/texturec/bimg/tools/texturec
+call.cc
+texturec.cpp
+Initialize.cpp
+utf8.cpp
+clone_context.cc
+imgui.cpp
+sampled_image.cc
+IntermTraverse.cpp
+Linking texturec
+nanovg.cpp
+validate.cc
+const_param_validator.cc
+constants.cpp
+nanovg_bgfx.cpp
+constant.cc
+control_dependence.cpp
+Intermediate.cpp
+relaxed_precision_decorations.cc
+convert_to_half_pass.cpp
+ParseContextBase.cpp
+particle_system.cpp
+constexpr_if.cc
+Archiving example-common
+convert_to_sampled_image_pass.cpp
+ParseHelper.cpp
+construct.cc
+binary_writer.cc
+==== Building geometryv (release64) ====
+Creating ../../win64_mingw-gcc/obj/x64/Release/geometryv
+Creating ../../win64_mingw-gcc/obj/x64/Release/geometryv/tools/geometryv
+geometryv.cpp
+continue.cc
+PoolAlloc.cpp
+../../../tools/geometryv/geometryv.cpp: In function 'int _main_(int, char**)':
+../../../tools/geometryv/geometryv.cpp:776:15: warning: variable 'time' set but not used [-Wunused-but-set-variable=]
+  776 |         float time  = 0.0f;
+      |               ^~~~
+function.cc
+==== Building texturev (release64) ====
+Creating ../../win64_mingw-gcc/obj/x64/Release/texturev
+Creating ../../win64_mingw-gcc/obj/x64/Release/texturev/tools/texturev
+texturev.cpp
+control_instruction.cc
+instruction.cc
+video_player.cpp
+../../../tools/texturev/texturev.cpp: In function 'int _main_(int, char**)':
+../../../tools/texturev/texturev.cpp:1765:15: warning: variable 'time' set but not used [-Wunused-but-set-variable=]
+ 1765 |         float time  = 0.0f;
+      |               ^~~~
+convert_to_untyped.cpp
+module.cc
+RemoveTree.cpp
+convert.cc
+copy_prop_arrays.cpp
+Scan.cpp
+core_binary.cc
+dataflow.cpp
+operand.cc
+core_builtin_call.cc
+option_helper.cc
+Archiving spirv-cross
+dead_branch_elim_pass.cpp
+ShaderLang.cpp
+Linking geometryv
+core_unary.cc
+output.cc
+Running post-build commands
+Stripping symbols.
+dead_insert_elim_pass.cpp
+printer.cc
+disassembler.cc
+SpirvIntrinsics.cpp
+builtin_polyfill.cc
+SymbolTable.cpp
+discard.cc
+case_switch_to_if_else.cc
+Linking texturev
+Running post-build commands
+Stripping symbols.
+Versions.cpp
+expand_implicit_splats.cc
+dead_variable_elimination.cpp
+evaluator.cc
+debug_info_manager.cpp
+attribute.cpp
+exit.cc
+fork_explicit_layout_types.cc
+decoration_manager.cpp
+glslang_tab.cpp
+handle_matrix_arithmetic.cc
+MachineIndependent/glslang_tab.cpp: In function 'int yyparse(glslang::TParseContext*)':
+MachineIndependent/glslang_tab.cpp:5649:9: warning: variable 'yynerrs' set but not used [-Wunused-but-set-variable=]
+exit_if.cc
+keep_binding_array_as_pointer.cc
+def_use_manager.cpp
+intermOut.cpp
+desc_sroa.cpp
+exit_loop.cc
+iomapper.cpp
+desc_sroa_util.cpp
+exit_switch.cc
+limits.cpp
+dominator_analysis.cpp
+merge_return.cc
+linkValidate.cpp
+function.cc
+dominator_tree.cpp
+pass_matrix_by_pointer.cc
+function_param.cc
+raise.cc
+parseConst.cpp
+remove_unreachable_in_loop_continuing.cc
+functional_validator.cc
+Pp.cpp
+if.cc
+resource_table_helper.cc
+eliminate_dead_constant_pass.cpp
+instruction.cc
+PpAtom.cpp
+eliminate_dead_functions_pass.cpp
+instruction_result.cc
+shader_io.cc
+eliminate_dead_functions_util.cpp
+PpContext.cpp
+unary_polyfill.cc
+eliminate_dead_io_components_pass.cpp
+io_attribute_validator.cc
+In file included from ../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp:89:
+In member function 'virtual void glslang::TPpContext::TokenizableIncludeFile::notifyActivated()',
+    inlined from 'void glslang::TPpContext::pushInput(tInput*)' at 
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h:234:28,
+    inlined from 'glslang::MacroExpandResult glslang::TPpContext::MacroExpand(glslang::TPpToken*, bool, bool)' at 
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp:1416:14:
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h:667:25: warning: array subscript 
+'glslang::TPpContext::TokenizableIncludeFile[0]' is partly outside array bounds of 'unsigned char [104]' 
+[-Warray-bounds=]
+  667 |             prevScanner = pp->parseContext.getScanner();
+      |             ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp: In member function 
+'glslang::MacroExpandResult glslang::TPpContext::MacroExpand(glslang::TPpToken*, bool, bool)':
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp:1307:43: note: object of size 104 allocated 
+by 'operator new'
+ 1307 |     tMacroInput *in = new tMacroInput(this);
+      |                                           ^
+In member function 'virtual void glslang::TPpContext::TokenizableIncludeFile::notifyActivated()',
+    inlined from 'void glslang::TPpContext::pushInput(tInput*)' at 
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h:234:28,
+    inlined from 'glslang::MacroExpandResult glslang::TPpContext::MacroExpand(glslang::TPpToken*, bool, bool)' at 
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp:1303:18:
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h:667:25: warning: array subscript 
+'glslang::TPpContext::TokenizableIncludeFile[0]' is partly outside array bounds of 'unsigned char [24]' 
+[-Warray-bounds=]
+  667 |             prevScanner = pp->parseContext.getScanner();
+      |             ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp: In member function 
+'glslang::MacroExpandResult glslang::TPpContext::MacroExpand(glslang::TPpToken*, bool, bool)':
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp:1303:38: note: object of size 24 allocated by 
+'operator new'
+ 1303 |         pushInput(new tZeroInput(this));
+      |                                      ^
+In member function 'virtual void glslang::TPpContext::TokenizableIncludeFile::notifyActivated()',
+    inlined from 'void glslang::TPpContext::pushInput(tInput*)' at 
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h:234:28,
+    inlined from 'glslang::MacroExpandResult glslang::TPpContext::MacroExpand(glslang::TPpToken*, bool, bool)' at 
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp:1303:18:
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h:669:29: warning: array subscript 
+'glslang::TPpContext::TokenizableIncludeFile[0]' is partly outside array bounds of 'unsigned char [24]' 
+[-Warray-bounds=]
+  669 |             pp->push_include(includedFile_);
+      |             ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp: In member function 
+'glslang::MacroExpandResult glslang::TPpContext::MacroExpand(glslang::TPpToken*, bool, bool)':
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp:1303:38: note: object of size 24 allocated by 
+'operator new'
+ 1303 |         pushInput(new tZeroInput(this));
+      |                                      ^
+var_for_dynamic_index.cc
+In member function 'virtual void glslang::TPpContext::TokenizableIncludeFile::notifyActivated()',
+    inlined from 'void glslang::TPpContext::pushInput(tInput*)' at 
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h:234:28,
+    inlined from 'glslang::TPpContext::TokenStream* glslang::TPpContext::PrescanMacroArg(TokenStream&, 
+glslang::TPpToken*, bool)' at ../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp:1110:14:
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h:667:25: warning: array subscript 
+'glslang::TPpContext::TokenizableIncludeFile[0]' is partly outside array bounds of 'unsigned char [24]' 
+[-Warray-bounds=]
+  667 |             prevScanner = pp->parseContext.getScanner();
+      |             ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp: In member function 
+'glslang::TPpContext::TokenStream* glslang::TPpContext::PrescanMacroArg(TokenStream&, glslang::TPpToken*, bool)':
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp:1110:36: note: object of size 24 allocated by 
+'operator new'
+ 1110 |     pushInput(new tMarkerInput(this));
+      |                                    ^
+In member function 'virtual void glslang::TPpContext::TokenizableIncludeFile::notifyActivated()',
+    inlined from 'void glslang::TPpContext::pushInput(tInput*)' at 
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h:234:28,
+    inlined from 'glslang::TPpContext::TokenStream* glslang::TPpContext::PrescanMacroArg(TokenStream&, 
+glslang::TPpToken*, bool)' at ../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp:1110:14:
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h:669:29: warning: array subscript 
+'glslang::TPpContext::TokenizableIncludeFile[0]' is partly outside array bounds of 'unsigned char [24]' 
+[-Warray-bounds=]
+  669 |             pp->push_include(includedFile_);
+      |             ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp: In member function 
+'glslang::TPpContext::TokenStream* glslang::TPpContext::PrescanMacroArg(TokenStream&, glslang::TPpToken*, bool)':
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp:1110:36: note: object of size 24 allocated by 
+'operator new'
+ 1110 |     pushInput(new tMarkerInput(this));
+      |                                    ^
+PpScanner.cpp
+In file included from ../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp:83:
+In member function 'virtual void glslang::TPpContext::TokenizableIncludeFile::notifyActivated()',
+    inlined from 'void glslang::TPpContext::pushInput(tInput*)' at 
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h:234:28,
+    inlined from 'void glslang::TPpContext::setInput(glslang::TInputScanner&, bool)' at 
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp:115:14:
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h:667:25: warning: array subscript 
+'glslang::TPpContext::TokenizableIncludeFile[0]' is partly outside array bounds of 'unsigned char [32]' 
+[-Warray-bounds=]
+  667 |             prevScanner = pp->parseContext.getScanner();
+      |             ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp: In member function 'void 
+glslang::TPpContext::setInput(glslang::TInputScanner&, bool)':
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp:115:43: note: object of size 32 
+allocated by 'operator new'
+  115 |     pushInput(new tStringInput(this, input));
+      |                                           ^
+In member function 'virtual void glslang::TPpContext::TokenizableIncludeFile::notifyActivated()',
+    inlined from 'void glslang::TPpContext::pushInput(tInput*)' at 
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h:234:28,
+    inlined from 'void glslang::TPpContext::setInput(glslang::TInputScanner&, bool)' at 
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp:115:14:
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h:669:29: warning: array subscript 
+'glslang::TPpContext::TokenizableIncludeFile[0]' is partly outside array bounds of 'unsigned char [32]' 
+[-Warray-bounds=]
+  669 |             pp->push_include(includedFile_);
+      |             ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp: In member function 'void 
+glslang::TPpContext::setInput(glslang::TInputScanner&, bool)':
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp:115:43: note: object of size 32 
+allocated by 'operator new'
+  115 |     pushInput(new tStringInput(this, input));
+      |                                           ^
+let.cc
+writer.cc
+PpTokens.cpp
+accessor_expression.cc
+eliminate_dead_members_pass.cpp
+load.cc
+propagateNoContraction.cpp
+eliminate_dead_output_stores_pass.cpp
+alias.cc
+load_vector_element.cc
+feature_manager.cpp
+reflection.cpp
+In file included from ../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp:94:
+In member function 'virtual void glslang::TPpContext::TokenizableIncludeFile::notifyActivated()',
+    inlined from 'void glslang::TPpContext::pushInput(tInput*)' at 
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h:234:28,
+    inlined from 'void glslang::TPpContext::pushTokenStreamInput(TokenStream&, bool, bool)' at 
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp:164:14:
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h:667:25: warning: array subscript 
+'glslang::TPpContext::TokenizableIncludeFile[0]' is partly outside array bounds of 'unsigned char [40]' 
+[-Warray-bounds=]
+  667 |             prevScanner = pp->parseContext.getScanner();
+      |             ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp: In member function 'void 
+glslang::TPpContext::pushTokenStreamInput(TokenStream&, bool, bool)':
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp:164:62: note: object of size 40 
+allocated by 'operator new'
+  164 |     pushInput(new tTokenInput(this, &ts, prepasting, expanded));
+      |                                                              ^
+In member function 'virtual void glslang::TPpContext::TokenizableIncludeFile::notifyActivated()',
+    inlined from 'void glslang::TPpContext::pushInput(tInput*)' at 
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h:234:28,
+    inlined from 'void glslang::TPpContext::pushTokenStreamInput(TokenStream&, bool, bool)' at 
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp:164:14:
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.h:669:29: warning: array subscript 
+'glslang::TPpContext::TokenizableIncludeFile[0]' is partly outside array bounds of 'unsigned char [40]' 
+[-Warray-bounds=]
+  669 |             pp->push_include(includedFile_);
+      |             ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp: In member function 'void 
+glslang::TPpContext::pushTokenStreamInput(TokenStream&, bool, bool)':
+../../../3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp:164:62: note: object of size 40 
+allocated by 'operator new'
+  164 |     pushInput(new tTokenInput(this, &ts, prepasting, expanded));
+      |                                                              ^
+loop.cc
+assignment_statement.cc
+fix_func_call_arguments.cpp
+member_builtin_call.cc
+ossource.cpp
+fix_storage_class.cpp
+attribute.cc
+ResourceLimits.cpp
+module.cc
+flatten_decoration_pass.cpp
+binary_expression.cc
+fold.cpp
+resource_limits_c.cpp
+multi_in_block.cc
+binding_attribute.cc
+next_iteration.cc
+stub.cpp
+fold_spec_constant_op_and_composite_pass.cpp
+blend_src_attribute.cc
+folding_rules.cpp
+block_statement.cc
+freeze_spec_constant_value_pass.cpp
+bool_literal_expression.cc
+operand_instruction.cc
+function.cpp
+override.cc
+break_if_statement.cc
+graph.cpp
+break_statement.cc
+phony.cc
+graphics_robust_access_pass.cpp
+reflection.cc
+builder.cc
+return.cc
+if_conversion.cpp
+store.cc
+builtin_attribute.cc
+inline_exhaustive_pass.cpp
+call_expression.cc
+store_vector_element.cc
+inline_opaque_pass.cpp
+structural_validator.cc
+inline_pass.cpp
+call_statement.cc
+switch.cc
+instruction.cpp
+case_selector.cc
+instruction_list.cpp
+case_statement.cc
+swizzle.cc
+color_attribute.cc
+terminate_invocation.cc
+compound_assignment_statement.cc
+terminator.cc
+interface_var_sroa.cpp
+array_length_from.cc
+const.cc
+interp_fixup_pass.cpp
+bgra8unorm_polyfill.cc
+invocation_interlock_placement_pass.cpp
+const_assert.cc
+ir_context.cpp
+binary_polyfill.cc
+continue_statement.cc
+ir_loader.cpp
+diagnostic_attribute.cc
+binding_remapper.cc
+diagnostic_control.cc
+block_decorated_structs.cc
+legalize_multidim_array_pass.cpp
+diagnostic_directive.cc
+licm_pass.cpp
+diagnostic_rule_name.cc
+liveness.cpp
+discard_statement.cc
+builtin_polyfill.cc
+local_access_chain_convert_pass.cpp
+builtin_scalarize.cc
+enable.cc
+change_immediate_to_uniform.cc
+local_redundancy_elimination.cpp
+collapse_subgroup_min_max.cc
+expression.cc
+local_single_block_elim_pass.cpp
+extension.cc
+combine_access_instructions.cc
+local_single_store_elim_pass.cpp
+float_literal_expression.cc
+conversion_polyfill.cc
+for_loop_statement.cc
+loop_dependence.cpp
+dead_code_elimination.cc
+loop_dependence_helpers.cpp
+function.cc
+Archiving glslang
+decompose_access.cc
+loop_descriptor.cpp
+demote_to_helper.cc
+group_attribute.cc
+direct_variable_access.cc
+loop_fission.cpp
+id_attribute.cc
+loop_fusion.cpp
+identifier.cc
+multiplanar_external_texture.cc
+loop_fusion_pass.cpp
+identifier_expression.cc
+loop_peeling.cpp
+prepare_immediate_data.cc
+if_statement.cc
+loop_unroller.cpp
+increment_decrement_statement.cc
+preserve_padding.cc
+index_accessor_expression.cc
+prevent_infinite_loops.cc
+loop_unswitch_pass.cpp
+input_attachment_index_attribute.cc
+loop_utils.cpp
+propagate_buffer_sizes.cc
+int_literal_expression.cc
+remove_continue_in_switch.cc
+mem_pass.cpp
+remove_terminator_args.cc
+interpolate_attribute.cc
+merge_return_pass.cpp
+invariant_attribute.cc
+modify_maximal_reconvergence.cpp
+remove_uniform_vector_component_loads.cc
+let.cc
+rename_conflicts.cc
+module.cpp
+literal_expression.cc
+resource_table.cc
+location_attribute.cc
+opextinst_forward_ref_fixup_pass.cpp
+resource_table_helper.cc
+optimizer.cpp
+loop_statement.cc
+member_accessor_expression.cc
+pass.cpp
+robustness.cc
+pass_manager.cpp
+shader_io.cc
+module.cc
+signed_integer_polyfill.cc
+must_use_attribute.cc
+single_entry_point.cc
+node.cc
+std140.cc
+pch_source_opt.cpp
+override.cc
+substitute_overrides.cc
+parameter.cc
+private_to_local_pass.cpp
+phony_expression.cc
+propagator.cpp
+value_to_let.cc
+reduce_load_size.cpp
+pipeline_stage.cc
+redundancy_elimination.cpp
+requires.cc
+register_pressure.cpp
+vectorize_scalar_matrix_constructors.cc
+return_statement.cc
+vertex_pulling.cc
+relax_float_ops_pass.cpp
+stage_attribute.cc
+remove_dontinline_pass.cpp
+statement.cc
+remove_duplicates_pass.cpp
+zero_init_workgroup_memory.cc
+struct.cc
+array_count.cc
+struct_member.cc
+unary.cc
+struct_member_align_attribute.cc
+unreachable.cc
+struct_member_size_attribute.cc
+remove_unused_interface_variables_pass.cpp
+unused.cc
+subgroup_size_attribute.cc
+user_call.cc
+replace_desc_array_access_using_var_index.cpp
+validator.cc
+replace_invalid_opc.cpp
+switch_statement.cc
+resolve_binding_conflicts_pass.cpp
+value.cc
+templated_identifier.cc
+scalar_analysis.cpp
+type_decl.cc
+var.cc
+scalar_analysis_simplification.cpp
+unary_op_expression.cc
+scalar_replacement_pass.cpp
+number.cc
+set_spec_constant_default_value_pass.cpp
+abstract_float.cc
+var.cc
+simplification_pass.cpp
+abstract_int.cc
+variable.cc
+split_combined_image_sampler_pass.cpp
+variable_decl_statement.cc
+spread_volatile_semantics.cpp
+abstract_numeric.cc
+ssa_rewrite_pass.cpp
+while_statement.cc
+array.cc
+workgroup_attribute.cc
+array_count.cc
+enums.cc
+atomic.cc
+strength_reduction_pass.cpp
+feature_status.cc
+In member function 'virtual bool tint::core::type::ConstantArrayCount::Equals(const tint::core::type::UniqueNode&) 
+const',
+    inlined from 'bool std::equal_to<tint::core::type::UniqueNode>::operator()(const tint::core::type::UniqueNode&, 
+const tint::core::type::UniqueNode&) const' at ../../../3rdparty/dawn/src/tint/lang/core/type/unique_node.h:78:36,
+    inlined from 'bool tint::UniqueAllocator<T, HASH, EQUAL>::Equality::operator()(T*, T*) const [with T = 
+tint::core::type::UniqueNode; HASH = tint::Hasher<tint::core::type::UniqueNode>; EQUAL = 
+std::equal_to<tint::core::type::UniqueNode>]' at 
+../../../3rdparty/dawn/src/tint/utils/containers/unique_allocator.h:102:59,
+    inlined from 'bool tint::HashmapBase<ENTRY, N>::Node::Equals(tint::HashCode, T&&) const [with T = 
+tint::core::type::UniqueNode*&; ENTRY = tint::HashmapKey<tint::core::type::UniqueNode*, 
+tint::UniqueAllocator<tint::core::type::UniqueNode>::Hasher, 
+tint::UniqueAllocator<tint::core::type::UniqueNode>::Equality>; long long unsigned int N = 32]' at 
+../../../3rdparty/dawn/src/tint/utils/containers/hashmap_base.h:452:60,
+    inlined from 'bool tint::HashmapBase<ENTRY, N>::Node::Equals(tint::HashCode, T&&) const [with T = 
+tint::core::type::UniqueNode*&; ENTRY = tint::HashmapKey<tint::core::type::UniqueNode*, 
+tint::UniqueAllocator<tint::core::type::UniqueNode>::Hasher, 
+tint::UniqueAllocator<tint::core::type::UniqueNode>::Equality>; long long unsigned int N = 32]' at 
+../../../3rdparty/dawn/src/tint/utils/containers/hashmap_base.h:450:14,
+    inlined from 'tint::HashmapBase<ENTRY, N>::Entry* tint::HashmapBase<ENTRY, N>::Slot::Find(tint::HashCode, K&&) 
+[with K = tint::core::type::UniqueNode*&; ENTRY = tint::HashmapKey<tint::core::type::UniqueNode*, 
+tint::UniqueAllocator<tint::core::type::UniqueNode>::Hasher, 
+tint::UniqueAllocator<tint::core::type::UniqueNode>::Equality>; long long unsigned int N = 32]' at 
+../../../3rdparty/dawn/src/tint/utils/containers/hashmap_base.h:605:33,
+    inlined from 'tint::HashmapBase<ENTRY, N>::EditIndex tint::HashmapBase<ENTRY, N>::EditAt(K&&) [with K = 
+tint::core::type::UniqueNode*&; ENTRY = tint::HashmapKey<tint::core::type::UniqueNode*, 
+tint::UniqueAllocator<tint::core::type::UniqueNode>::Hasher, 
+tint::UniqueAllocator<tint::core::type::UniqueNode>::Equality>; long long unsigned int N = 32]' at 
+../../../3rdparty/dawn/src/tint/utils/containers/hashmap_base.h:550:32,
+    inlined from 'tint::UniqueAllocator<T, HASH, EQUAL>::Key& tint::UniqueAllocator<T, HASH, EQUAL>::Set::Add(T*) 
+[with T = tint::core::type::UniqueNode; HASH = tint::Hasher<tint::core::type::UniqueNode>; EQUAL = 
+std::equal_to<tint::core::type::UniqueNode>]' at 
+../../../3rdparty/dawn/src/tint/utils/containers/unique_allocator.h:115:36,
+    inlined from 'TYPE* tint::UniqueAllocator<T, HASH, EQUAL>::Get(ARGS&& ...) [with TYPE = 
+tint::core::type::RuntimeArrayCount; ARGS = {}; T = tint::core::type::UniqueNode; HASH = 
+tint::Hasher<tint::core::type::UniqueNode>; EQUAL = std::equal_to<tint::core::type::UniqueNode>]' at 
+../../../3rdparty/dawn/src/tint/utils/containers/unique_allocator.h:56:29,
+    inlined from 'auto* tint::core::type::Manager::Get(ARGS&& ...) [with T = tint::core::type::RuntimeArrayCount; ARGS 
+= {}]' at ../../../3rdparty/dawn/src/tint/lang/core/type/manager.h:187:40,
+    inlined from 'virtual tint::core::type::RuntimeArrayCount* 
+tint::core::type::RuntimeArrayCount::Clone(tint::core::type::CloneContext&) const' at 
+../../../3rdparty/dawn/src/tint/lang/core/type/array_count.cc:73:47:
+../../../3rdparty/dawn/src/tint/lang/core/type/array_count.cc:47:28: warning: array subscript 'const 
+tint::core::type::ConstantArrayCount[0]' is partly outside array bounds of 'tint::core::type::RuntimeArrayCount [1]' 
+[-Warray-bounds=]
+   47 |         return value == v->value;
+      |                         ~~~^~~~~
+In file included from ../../../3rdparty/dawn/src/tint/lang/core/type/manager.h:50,
+                 from ../../../3rdparty/dawn/src/tint/lang/core/type/array_count.cc:30:
+../../../3rdparty/dawn/src/tint/utils/containers/unique_allocator.h: In member function 'virtual 
+tint::core::type::RuntimeArrayCount* tint::core::type::RuntimeArrayCount::Clone(tint::core::type::CloneContext&) 
+const':
+../../../3rdparty/dawn/src/tint/utils/containers/unique_allocator.h:55:14: note: object 'prototype' of size 24
+   55 |         TYPE prototype{args...};
+      |              ^~~~~~~~~
+binding_array.cc
+entry_point.cc
+strip_debug_info_pass.cpp
+bool.cc
+strip_nonsemantic_info_pass.cpp
+buffer.cc
+struct_cfg_analysis.cpp
+inspector.cc
+builtin_structs.cc
+resource_binding.cc
+struct_packing_pass.cpp
+scalar.cc
+switch_descriptorset_pass.cpp
+depth_multisampled_texture.cc
+trim_capabilities_pass.cpp
+ctor_conv.cc
+depth_texture.cc
+type_manager.cpp
+external_texture.cc
+data.cc
+f16.cc
+atomic_vec2u_to_from_u64.cc
+f32.cc
+builtin_call.cc
+types.cpp
+unary.cc
+function.cc
+program.cc
+unify_const_pass.cpp
+program_builder.cc
+i32.cc
+upgrade_memory_model.cpp
+i8.cc
+value_number_table.cpp
+input_attachment.cc
+vector_dce.cpp
+invalid.cc
+workaround1209.cpp
+reserved_words.cc
+wrap_opkill.cpp
+dependency_graph.cc
+manager.cc
+incomplete_type.cc
+matrix.cc
+parsed_operand.cpp
+memory_view.cc
+resolve.cc
+multisampled_texture.cc
+resolver.cc
+node.cc
+sem_helper.cc
+print.cpp
+uniformity.cc
+numeric_scalar.cc
+unresolved_identifier.cc
+pointer.cc
+validator.cc
+change_operand_reduction_opportunity.cpp
+accessor_expression.cc
+change_operand_to_undef_reduction_opportunity.cpp
+reference.cc
+array.cc
+resource_table.cc
+conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp
+resource_type.cc
+conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp
+array_count.cc
+sampled_texture.cc
+merge_blocks_reduction_opportunity.cpp
+behavior.cc
+merge_blocks_reduction_opportunity_finder.cpp
+sampler.cc
+block_statement.cc
+operand_to_const_reduction_opportunity_finder.cpp
+break_if_statement.cc
+sampler_kind.cc
+builtin_enum_expression.cc
+scalar.cc
+operand_to_dominating_id_reduction_opportunity_finder.cpp
+builtin_fn.cc
+operand_to_undef_reduction_opportunity_finder.cpp
+storage_texture.cc
+pch_source_reduce.cpp
+string.cc
+reducer.cpp
+struct.cc
+call.cc
+subgroup_matrix.cc
+call_target.cc
+reduction_opportunity.cpp
+swizzle_view.cc
+texel_buffer.cc
+reduction_opportunity_finder.cpp
+expression.cc
+reduction_pass.cpp
+texture.cc
+for_loop_statement.cc
+texture_dimension.cc
+function.cc
+reduction_util.cpp
+function_expression.cc
+remove_block_reduction_opportunity.cpp
+if_statement.cc
+remove_block_reduction_opportunity_finder.cpp
+type.cc
+remove_function_reduction_opportunity.cpp
+u16.cc
+remove_function_reduction_opportunity_finder.cpp
+u32.cc
+index_accessor_expression.cc
+remove_instruction_reduction_opportunity.cpp
+info.cc
+remove_selection_reduction_opportunity.cpp
+u64.cc
+remove_selection_reduction_opportunity_finder.cpp
+u8.cc
+load.cc
+unique_node.cc
+remove_struct_member_reduction_opportunity.cpp
+loop_statement.cc
+vector.cc
+materialize.cc
+remove_unused_instruction_reduction_opportunity_finder.cpp
+void.cc
+member_accessor_expression.cc
+remove_unused_struct_member_reduction_opportunity_finder.cpp
+unary_op.cc
+simple_conditional_branch_to_branch_opportunity_finder.cpp
+buffer_reader.cc
+module.cc
+simple_conditional_branch_to_branch_reduction_opportunity.cpp
+node.cc
+reader.cc
+structured_construct_to_block_reduction_opportunity.cpp
+statement.cc
+structured_construct_to_block_reduction_opportunity_finder.cpp
+containers.cc
+diagnostic.cc
+structured_loop_to_selection_reduction_opportunity.cpp
+formatter.cc
+structured_loop_to_selection_reduction_opportunity_finder.cpp
+struct.cc
+source.cc
+switch_statement.cc
+debugger.cc
+type_expression.cc
+software_version.cpp
+ice.cc
+value_constructor.cc
+macros.cc
+value_conversion.cc
+spirv_endian.cpp
+value_expression.cc
+spirv_optimizer_options.cpp
+math.cc
+spirv_reducer_options.cpp
+variable.cc
+spirv_target_env.cpp
+memory.cc
+spirv_validator_options.cpp
+while_statement.cc
+reflection.cc
+table.cpp
+ast_printer.cc
+result.cc
+table2.cpp
+castable.cc
+common.cc
+switch.cc
+ir_to_program.cc
+text.cpp
+float_to_string.cc
+text_handler.cpp
+to_string.cpp
+output.cc
+bit_vector.cpp
+ptr_to_ref.cc
+parse_number.cpp
+generation_id.cc
+raise.cc
+symbol.cc
+string_utils.cpp
+value_to_let.cc
+symbol_table.cc
+basic_block.cpp
+writer.cc
+base64.cc
+color_mode.cc
+construct.cpp
+string.cc
+function.cpp
+instruction.cpp
+validate.cpp
+string_stream.cc
+styled_text.cc
+validate_adjacency.cpp
+styled_text_printer.cc
+validate_annotation.cpp
+validate_arithmetics.cpp
+styled_text_printer_ansi.cc
+validate_atomics.cpp
+styled_text_theme.cc
+validate_barriers.cpp
+validate_bitwise.cpp
+unicode.cc
+text_generator.cc
+validate_builtins.cpp
+validate_capability.cpp
+validate_cfg.cpp
+validate_composites.cpp
+validate_constants.cpp
+validate_conversion.cpp
+validate_debug.cpp
+validate_decorations.cpp
+Archiving tint-core
+validate_derivatives.cpp
+validate_dot_product.cpp
+validate_execution_limitations.cpp
+validate_explicit_layout.cpp
+validate_extensions.cpp
+validate_function.cpp
+validate_graph.cpp
+validate_group.cpp
+validate_id.cpp
+validate_image.cpp
+validate_instruction.cpp
+validate_interfaces.cpp
+Archiving tint-lang
+validate_invalid_type.cpp
+validate_layout.cpp
+validate_literals.cpp
+validate_logical_pointers.cpp
+validate_logicals.cpp
+validate_memory.cpp
+validate_memory_semantics.cpp
+validate_mesh_shading.cpp
+validate_misc.cpp
+validate_mode_setting.cpp
+validate_non_uniform.cpp
+validate_pipe.cpp
+validate_primitives.cpp
+validate_ray_query.cpp
+validate_ray_tracing.cpp
+validate_ray_tracing_reorder.cpp
+validate_scopes.cpp
+validate_small_type_uses.cpp
+validate_tensor.cpp
+validate_tensor_layout.cpp
+validate_type.cpp
+validation_state.cpp
+Archiving spirv-opt
+==== Building shaderc (release64) ====
+Creating ../../win64_mingw-gcc/obj/x64/Release/shaderc
+Creating ../../win64_mingw-gcc/obj/x64/Release/shaderc/src
+Creating ../../win64_mingw-gcc/obj/x64/Release/shaderc/tools/shaderc
+pp.cpp
+shaderc.cpp
+shaderc_dxil.cpp
+shaderc_glsl.cpp
+shaderc_hlsl.cpp
+shaderc_metal.cpp
+shaderc_pssl.cpp
+shaderc_spirv.cpp
+shaderc_wgsl.cpp
+shader.cpp
+vertexlayout.cpp
+Linking shaderc
+Running post-build commands
+Stripping symbols.
+mingw32-make: Leaving directory 'C:/Users/QuipG/OneDrive/Desktop/Hacksaw/hksrc/src/Thirdparty/bgfx/.build/projects/gmake-mingw-gcc'
+[setup] done. libs + tools in C:\Users\QuipG\OneDrive\Desktop\Hacksaw\hksrc\src\Thirdparty\bgfx\.build\win64_mingw-gcc\bin
+
+Name                      
+----                      
+libbgfxRelease.a          
+libbimgRelease.a          
+libbimg_decodeRelease.a   
+libbimg_encodeRelease.a   
+libbxRelease.a            
+libexample-commonRelease.a
+libexample-glueRelease.a  
+libglslangRelease.a       
+libl-smashRelease.a       
+libspirv-crossRelease.a   
+libspirv-optRelease.a     
+libtint-apiRelease.a      
+libtint-coreRelease.a     
+libtint-langRelease.a     
+
+
+SETUP EXIT: 0
