@@ -41,6 +41,25 @@ void frame(void) {
 		.swapchain = sglue_swapchain()	// directs Sokol(Library) render to activate the window
 	});
 	
-	
+	// the Draw code will go here :)
+	// finish the current resource here when the window has been closed
+	sg_end_pass();
+	sg_commit();
 }
 
+void cleanup(void) {
+	sg_shutdown();
+}
+
+sapp_decs sokol_main(int argc, char* argv[]) {
+	(void)argc; (void)argv;
+	return (sapp_decs) {
+		.init_cb = init,
+		.frame_cb = frame, 
+		.cleanup_cb = cleanup,
+		.width = 800,
+		.height = 400,
+		.window_title = "", // window name
+		.icon = { .sokol_default = true } // The window icon 
+	}
+}
